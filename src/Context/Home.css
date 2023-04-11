@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-h{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px 0;
+    font-size: 40px;
+}
+.home-container{
+    width: 90%;
+    margin: auto;
+    text-align: center; 
+}
+.home-row{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.home-link-1,.home-link-2{
+    background-color: rgb(38, 69, 244);
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.home-card{
+    width: 60%;
+    margin: auto;
+}
+.home-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+}
+.home-table th{
+    border: 2px solid black;
+    padding: 10px 15px;
+    background-color: skyblue;
+}
+.home-table td{
+    border: 2px solid black;
+    padding: 10px 15px;
+    background-color: white;
+}
+.ed-row{
+    display: flex;
+    justify-content: space-evenly;
+}
+.home-edit button{
+    font-size: 18px;
+    border: 0;
+    padding: 10px;
+    background-color: white;
+    font-weight: bolder;
+}
+.home-del button{
+    font-size: 18px;
+    border: 0;
+    padding: 10px;
+    background-color: white;
+}
+.home-link-3{
+    text-decoration: none;
+    color: black;
+}
